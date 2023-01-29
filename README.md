@@ -1,4 +1,4 @@
-# Another Vulnerable Server (for internship coding challenge).
+# Another Vulnerable Server (for internship and testing coding challenge).
 - Written using Python3, flask, and sqlite3 library
 - Relatively small code base should allow you to understand what is going on, and possibly fix vulnerabilities
 - *Hints*: 
@@ -10,7 +10,9 @@
 - We run a *vulnerability_server.py* server script. 
   - Run it with python3 locally to test out your exploits
 - After starting the server locally, go to http://localhost:5000 to be greeted by a login page. Alice's email is alice@alice.com, but *what is the password?*
-- Find a way to log in as Alice using [SQL Injection](https://www.geeksforgeeks.org/authentication-bypass-using-sql-injection-on-login-page/)
+- Find a way to log in as Alice using [SQL Injection] (For interns) 
+- (For testers) list all test cases to validate for this server 
+- (For testers) find all vulnerabilities in this server.
 
 ## Part 2: Cross-Site Scripting
 - Note: restarting the webserver will refresh the SQL database
